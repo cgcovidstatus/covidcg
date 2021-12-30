@@ -97,15 +97,16 @@ Resources1× 0.5× 0.25×Rerun
 
 <div class="grid-container">
   
-    <div class="item1">POSITIVE <br> 150</div>
-  <div class="item1">RECOVERD <br> 16</div>
+    <div class="item1">POSITIVE <br> 106</div>
+  <div class="item1">RECOVERD <br> 36</div>
   <div class="item1">DECEASED <br> - </div>  
-  <div class="item1">ACTIVE <br> 593  </div>
+  <div class="item1">ACTIVE <br> 463  </div>
  
 
 
 </div>
 <hr/>
+
 </body>
 </html>
 
@@ -253,14 +254,15 @@ a {
 
 
 
+		  <p  style="color:white; background:black;  PADDING: 0 6PX;     margin-top: 14;"><b><u>C.G COVID-19 DATA</b></u></p>
 		  
-		  
-            <input class="form-control" placeholder="Search a area" type="text" ng-model="searchText">
+           <!-- <input class="form-control" placeholder="Search a area" type="text" ng-model="searchText">-->
             <contact class="list-group-item" ng-repeat="contact in contacts | orderBy: '' | filter: searchText "></contact>
           </li>
         </ul> 
       </div>
       
+	  
 	  
 
 	  
@@ -311,15 +313,17 @@ a {
 
 <style>
 .line {
-    
     color: rgb(185,74,72);
     background-color: white;
     font-size: 15px;
     color: black;
     text-align: left;
-    padding-left: 11px;
+    padding-left: 12px;
     margin-bottom: 12;
     border: 1px solid rgb(238,211,215);
+    width: 184px;
+    margin-left: -2px;
+    width: 250px;
 }
   
   .lockdown {
@@ -343,12 +347,13 @@ a {
   
   
 </style>
+ 
 
-
-<p style="color:white; background:black;  "><b><u>30-12-21 (3:01 pm)</b></u></p>
+<p style="color:white; background:black; PADDING: 0 6PX; margin-top: 14;     margin-left: -2px;
+    width: 110%;  "><b>OMICRON CASES IN  INDIA</b></p>
 <div class="line">
-OMICRON STATUS:-     <hr>
-<span style=" font-weight:bold;"> 	Total	</span> <span style=" font-weight:bold; color:red;font-weight:bold;font-size: 70%; ">  <br>   POSITIVE- 	961	</span> &nbsp; <span style="  font-weight:bold; color:GREEN;font-weight:bold;font-size: 70%; "> RECOVERED-	320	</span> <br><br> 
+   <hr>
+<div style=" font-weight:bold; ">Total</span> <br> <span style=" font-weight:bold; color:white;font-weight:bold;font-size: 70%; background:red;  padding:3px; ">  POSITIVE- 	961	</span> &nbsp; <span style="  font-weight:bold; color:white;font-weight:bold;font-size: 70%; background:green; padding:4px; "> RECOVERED-	320	</div> <br> 
 1)	Delhi	<span style=" color:red;font-weight:bold;font-size: 70%; ">  <br>   POSITIVE-	263	</span> &nbsp; <span style=" color:GREEN;font-weight:bold;font-size: 70%; "> RECOVERED-	57	</span> <br><br>
 2)	Maharashtra	<span style=" color:red;font-weight:bold;font-size: 70%; ">  <br>   POSITIVE-	252	</span> &nbsp; <span style=" color:GREEN;font-weight:bold;font-size: 70%; "> RECOVERED-	99	</span> <br><br>
 3)	Gujarat	<span style=" color:red;font-weight:bold;font-size: 70%; ">  <br>   POSITIVE-	97	</span> &nbsp; <span style=" color:GREEN;font-weight:bold;font-size: 70%; "> RECOVERED-	42	</span> <br><br>
@@ -379,7 +384,7 @@ OMICRON STATUS:-     <hr>
 </h1></div> <hr/>
 
 
-
+<!--
 
 <p style="color:white; background:black;  "><b><u>27-12-21 (3:25 pm)</b></u></p>
 <div class="line">Night curfews are back in states and union territories.  <br>
@@ -477,6 +482,7 @@ telangana:	3<br>
 <p  style="color:white; background:black;"><b><u>02-12-21</b></u></p>
 <div class="line">Two men in the southern Indian state of Karnataka have tested positive for the Omicron coronavirus variant after returning from overseas.</h1></div> <hr/>
 
+-->
 
 			
 
@@ -523,7 +529,7 @@ h2 {
 
 
    <span style="color:red;font-weight:bold;font-size: 90%;    position: fixed; background-color: white;margin-top: -1px;
-    width: 100%; text-align: left; margin-left: -130px;
+    width: 100%; text-align: left; margin-left: -130px;     HEIGHT: 22PX;
  " >    Positive:  {{currentContact.positive}} &nbsp; &nbsp;  Recovered: {{currentContact.recoverd}} &nbsp;&nbsp;   Death: {{currentContact.death}} &nbsp; &nbsp;  Active: {{currentContact.total}} </span>
 	   
         <p><b> <h1> {{currentContact.customer1}} </h1> {{currentContact.toys1}} 
