@@ -1,4 +1,4 @@
-var element = document.getElementById("id01");element.innerHTML = "COVID-19 CG										";					
+var element = document.getElementById("id01");element.innerHTML = "COVID-19 CG (BETA)									";					
 																
 																
 																
