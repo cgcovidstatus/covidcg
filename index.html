@@ -3,7 +3,33 @@
 
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   z-index: 100; 
+}
+</style>
+</head>
+<body>
 
+
+
+<div class="footer">
+  <p><a  href="#" id="mySizeChart"  style=" color:white;font-weight:bold;font-size: 70%;  margin-left: 120; float: right;  margin-right: 15;"> HISTORY</a>	</p>
+</div>
+
+</body>
+</html> 
 
 
 
@@ -250,7 +276,7 @@ a {
 
 
 
-		  <p  style="color:white; background:black;  PADDING: 0 6PX;     margin-top: 14;"><b>C.G COVID-19 DATA</b></p>
+		  <p  style="color:BLACK;  PADDING: 0 6PX;      FONT-SIZE: 11;   margin-top: 14;"><b>CLICK THE DATE BELOW TO SEE C.G COVID-19 DATA DISTRICT WISE</b></p> <hr>
 		  
            <!-- <input class="form-control" placeholder="Search a area" type="text" ng-model="searchText">-->
             <contact class="list-group-item" ng-repeat="contact in contacts | orderBy: '' | filter: searchText "></contact>
@@ -298,7 +324,7 @@ a {
     cursor: pointer;
 } </style>		  
 		  
-		  <a  href="#" id="mySizeChart"  style=" color:black;font-weight:bold;font-size: 70%;  margin-left: 120;"> HISTORY</a>
+		  
 
 
 <div id="mySizeChartModal" class="ebcf_modal">
@@ -321,35 +347,10 @@ a {
  </div>
 
 </div>
-		  
+	
 
-<script>
-// Get the modal
-var ebModal = document.getElementById('mySizeChartModal');
 
-// Get the button that opens the modal
-var ebBtn = document.getElementById("mySizeChart");
-
-// Get the <span> element that closes the modal
-var ebSpan = document.getElementsByClassName("ebcf_close")[0];
-
-// When the user clicks the button, open the modal 
-ebBtn.onclick = function() {
-    ebModal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-ebSpan.onclick = function() {
-    ebModal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == ebModal) {
-        ebModal.style.display = "none";
-    }
-}
-</script>	  
+<script  src="./modal.js"></script>  
 
 	  
       <!--   ng-view below       -->
@@ -437,7 +438,7 @@ window.onclick = function(event) {
 </style>
  
 
-<p style="color:white; background:black; PADDING: 0 6PX; margin-top: 0;     margin-left: -2px;
+<p style="color:white; background:black; PADDING: 0 6PX; margin-top: 14;     margin-left: -2px;
     width: 110%;  "><b>OMICRON CASES IN  INDIA</b></p>
 	<p style="color:black;     margin-left: -2px; font-size: 9px;"><b>Last Update:  01-01-22</b></p>  
 <div class="line">
@@ -816,5 +817,4 @@ div.c {
 <!-- partial -->
   <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js'></script>
 <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js'></script><script  src="./script.js"></script>
-
 
