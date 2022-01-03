@@ -36,13 +36,7 @@ let revChart = new Chart(ctx, {
         borderColor: "black",
         backgroundColor: "rgba(233, 238, 253, 0.5)",
         data: [1, 0, 0, 1, 2, 0, 0, 0, 1, 0]
-      } ,
-	  {
-        label: "active",
-        borderColor: "orange",
-        backgroundColor: "rgba(233, 238, 253, 0.5)",
-        data: [296, 313,330, 345, 393, 463, 593, 769, 1017, 1273]
-      }
+      } 
     ]
   },
   options: {
