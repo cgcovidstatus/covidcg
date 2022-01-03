@@ -75,7 +75,7 @@ customer7: '	DHAMTARI	', toys7: 'POSTIVE:-		5	', amount7: 'RECOVERED-	1	', GIFTS
 customer8: '	BALODABAZAR	', toys8: 'POSITIVE:-		5	', amount8: 'RECOVERED-	0	', GIFTS8: 'DEATH:-	0	', amountg8: 'ACTIVE-	11	', bags8: 'BAGS:-	', amountb8: '		',  urlb8: '		',
 customer9: '	MAHASAMUH	', toys9: 'POSITIVE:-		0	', amount9: 'RECOVERED-	0	', GIFTS9: 'DEATH:-	0	', amountg9: 'ACTIVE-	8	', bags9: 'BAGS:-	', amountb9: '		',  urlb9: '		',
 customer10: '	GARIYABAND	', toys10: 'POSITIVE:-		2	', amount10: 'RECOVERED-	1	', GIFTS10: 'DEATH:-	0	', amountg10: 'ACTIVE-	5	', bags10: 'BAGS:-	', amountb10: '		',  urlb10: '		',
-customer11: '	BILASPUR	', toys11: 'POSITIVE:-		133	', amount11: 'RECOVERED-	3	', GIFTS11: 'DEATH:-	0	', amountg11: 'ACTIVE-	364	', bags11: 'BAGS:-	', amountb10: '		',  urlb10: '		',
+customer11: '	BILASPUR	', toys11: 'POSITIVE:-		133	', amount11: 'RECOVERED-	4	', GIFTS11: 'DEATH:-	0	', amountg11: 'ACTIVE-	364	', bags11: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer12: '	RAIGARH	', toys12: 'POSITIVE:-		103	', amount12: 'RECOVERED-	2	', GIFTS12: 'DEATH:-	0	', amountg12: 'ACTIVE-	357	', bags12: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer13: '	KORBA	', toys13: 'POSITIVE:-		39	', amount13: 'RECOVERED-	0	', GIFTS13: 'DEATH:-	0	', amountg13: 'ACTIVE-	134	', bags13: 'BAGS:-	', amountb10: '		',  urlb10: '		',
 customer14: '	JANJGIR CHAMPA	', toys14: 'POSITIVE:-		26	', amount14: 'RECOVERED-	0	', GIFTS14: 'DEATH:-	0	', amountg14: 'ACTIVE-	95	', bags14: 'BAGS:-	', amountb10: '		',  urlb10: '		',
