@@ -64,7 +64,7 @@ var myApp = angular.module('myApp', ['ngRoute'])
 
 
 
-{id: 1, name: '	03-01-22', total: '  	13601	',positive:' 	698	',recoverd:' 	29	',death:' 	0	',active:' 	13601		',				
+{id: 1, name: '	03-01-22', total: '  	1942	',positive:' 	698	',recoverd:' 	29	',death:' 	0	',active:' 	1942		',				
 customer1: '	DURG	', toys1: 'POSITIVE:-		43	', amount1: 'RECOVERED-	3	', GIFTS1: 'DEATH:-	0	', amountg1: 'ACTIVE-	152	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	RAJNANDGAON	', toys2: 'POSITIVE:-		18	', amount2: 'RECOVERED-	1	', GIFTS2: 'DEATH:-	0	', amountg2: ' ACTIVE- 32		', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	BALOD	', toys3: 'POSITIVE:-		3	', amount3: 'RECOVERED-	1	', GIFTS3: 'DEATH:-	0	', amountg3: ' ACTIVE-	8	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
