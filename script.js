@@ -5,7 +5,7 @@ app.factory("tabsFactory",function()
   
   var tabs = [
 
-{id: 1, name: '	05-01-22', total: '  	4562	',positive:' 	1615	',recoverd:' 	29	',death:' 	1	',active:' 	4562		',				
+{id: 1, name: '	TODAY', total: '  	4562	',positive:' 	1615	',recoverd:' 	29	',death:' 	1	',active:' 	4562		',				
 customer1: '	DURG	', toys1: 'POSITIVE:-		187	', amount1: 'RECOVERED-	5	', GIFTS1: 'DEATH:-	0	', amountg1: 'ACTIVE-	419	', bags1: 'BAGS:-	', amountb1: '		',  urlb1: '		',
 customer2: '	RAJNANDGAON	', toys2: 'POSITIVE:-		36	', amount2: 'RECOVERED-	0	', GIFTS2: 'DEATH:-	0	', amountg2: ' ACTIVE- 112		', bags2: 'BAGS:-	', amountb2: '		',  urlb2: '		',
 customer3: '	BALOD	', toys3: 'POSITIVE:-		5	', amount3: 'RECOVERED-	0	', GIFTS3: 'DEATH:-	0	', amountg3: ' ACTIVE-	16	', bags3: 'BAGS:-	', amountb3: '		',  urlb3: '		',
