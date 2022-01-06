@@ -17,7 +17,7 @@ let revChart = new Chart(ctx, {
 "jan 03",
 "jan 04",
 "jan 05",
-jan 06"
+"jan 06"
      
     ],
     datasets: [
